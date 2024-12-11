@@ -1,17 +1,19 @@
 # `extract-txt`
 This program will generate the text of a PDF file, scraped of special
 characters. This will make it easy for a TeX-built resume to be displayed in
-plaintext, without any special characters.
+plaintext, without any special characters. This assumes that a program like
+`latexmk` has already generated a file like `resume.dvi`.
 
 In essence, this program does
 ```
-.tex ---> .txt
+.dvi ---> .txt
 ```
 
 # Installation
 
 ```
 git clone https://github.com/thevedantmodi/extract-text-resume
-cd extra-text-resume
+cd extract-text-resume
 ./install.sh
+extract-txt resume.dvi
 ```
