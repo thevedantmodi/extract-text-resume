@@ -11,5 +11,7 @@ In essence, this program does
 # Installation
 
 ```
-
+git clone https://github.com/thevedantmodi/extract-text-resume
+cd extra-text-resume
+./install.sh
 ```
