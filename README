@@ -1,0 +1,15 @@
+# `extract-txt`
+This program will generate the text of a PDF file, scraped of special
+characters. This will make it easy for a TeX-built resume to be displayed in
+plaintext, without any special characters.
+
+In essence, this program does
+```
+.tex ---> .txt
+```
+
+# Installation
+
+```
+
+```
